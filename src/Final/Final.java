@@ -6,7 +6,7 @@ import java.awt.Color;
 public class Final extends JFrame {
 
     public Final() {
-        add(new Board());
+        add(new Board()); 
         setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
         setSize(600, 600);
         if (Board.x == 20)
